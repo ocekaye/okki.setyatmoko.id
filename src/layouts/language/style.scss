@@ -1,0 +1,111 @@
+@import "../../../assets/styles/BaseStyle.scss";
+
+.language {
+  width: 100vw;
+  height: 200px;
+  position: relative;
+}
+
+.languageGrid {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.languageItem {
+  padding: 10px;
+  text-align: center;
+}
+
+.languageImage {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+
+.languageImage:hover {
+  cursor: pointer;
+}
+
+.languageKotlin {
+  height: 100px;
+  width: 300px;
+  margin: 30px;
+}
+
+.languageKotlin:hover {
+  cursor: pointer;
+}
+
+.languageImage .path {
+  fill: white !important;
+  stroke: none !important;
+}
+
+.languageImage:hover .path {
+  fill: #83cd29 !important;
+}
+
+.languageKotlin .path {
+  fill: white !important;
+  stroke: none !important;
+}
+
+.languageKotlin:hover .path {
+  fill: #83cd29 !important;
+}
+
+@media screen and (max-width: 859px) {
+  .languageGrid {
+    top: 15%;
+  }
+  .languageItem {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .languageImage {
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+  }
+
+  .languageKotlin {
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .languageGrid {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .languageItem {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .languageImage {
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+  }
+
+  .languageKotlin {
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+  }
+}

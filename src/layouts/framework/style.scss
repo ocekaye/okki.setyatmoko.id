@@ -1,0 +1,22 @@
+@import "../../../assets/styles/BaseStyle.scss";
+.framework {
+  width: 100vw;
+  height: 35vh;
+}
+
+.frameworkImage {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 859px) {
+  .framework {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .framework {
+    height: 20vh;
+  }
+}
