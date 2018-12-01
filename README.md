@@ -2,7 +2,7 @@
 
 ## Preview
 
-- Live preview <a href="http://okki.setyatmoko.id/" target="_blank">React Starter TDL</a>
+- Live preview <a href="http://okki.setyatmoko.id/" target="_blank">Okki Setyatmoko</a>
 
 ## Requirements
 
